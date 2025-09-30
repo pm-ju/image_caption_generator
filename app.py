@@ -132,8 +132,8 @@ async def get_stylized_caption(base_caption, style):
 
     style_prompts = {
         "Humorous": f"Rewrite the following image caption to be funny and witty. You can use cuss words and be honestly funny atleast and write only one response and not give options for your reponse: '{base_caption}'",
-        "Poetic": f"Rewrite the following image caption as a short, elegant small poem. It should be elegant and just make people fall in love with it and dont give any options for this atleast: '{base_caption}'",
-        "Dramatic": f"Rewrite the following image caption with a dramatic and epic tone. make something that can make a person cry or make him so emerge in that and make it short: '{base_caption}'",
+        "Poetic": f"Rewrite the following image caption as a short, elegant small poem. It should be elegant and just make people fall in love with it and dont give any options for this atleast.: '{base_caption}'",
+        "Dramatic": f"Rewrite the following image caption with a dramatic and epic tone. make something that can make a person cry or make him so emerge in that and make it not too long but enough long and you can use cuss words: '{base_caption}'",
         "Philosophical": f"Take this simple image description, '{base_caption}', and rewrite it as a short, thought-provoking philosophical reflection and dont make it too big.",
         "Historical Context": f"Based on the image description '{base_caption}', invent a plausible and interesting historical context or backstory for the scene. Write it as a short, engaging narrative. dont make it too big, make it simple."
     }
