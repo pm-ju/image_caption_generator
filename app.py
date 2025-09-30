@@ -132,10 +132,10 @@ async def get_stylized_caption(base_caption, style):
 
     style_prompts = {
         "Humorous": f"Rewrite the following image caption to be funny and witty. You can use cuss words and be honestly funny atleast and write only one response and not give options for your reponse. be creative with cuss words and also use creative cuss words: '{base_caption}'",
-        "Poetic": f"Rewrite the following image caption as a short, elegant small poem. It should be elegant and just make people fall in love with it and dont give any options for this atleast. Make it slightly long: '{base_caption}'",
-        "Dramatic": f"Rewrite the following image caption with a dramatic and epic tone. make something that can make a person cry or make him so emerge in that and make it not too long but enough long and you can use cuss words: '{base_caption}'",
-        "Philosophical": f"Take this simple image description, '{base_caption}', and rewrite it as a short, thought-provoking philosophical reflection and dont make it too big.",
-        "Historical Context": f"Based on the image description '{base_caption}', invent a plausible and interesting historical context or backstory for the scene. Write it as a short, engaging narrative. dont make it too big, make it simple."
+        "Poetic": f"Rewrite the following image caption as a short, elegant small poem. It should be elegant and just make people fall in love with it and dont give any options for this atleast. Make it slightly long. You can use cuss words or slangs to give emotions: '{base_caption}'",
+        "Dramatic": f"Rewrite the following image caption with a dramatic and epic tone. make something that can make a person cry or make him so emerge in that and make it not too long but enough long and you can use cuss words to give emotions: '{base_caption}'",
+        "Philosophical": f"Take this simple image description, '{base_caption}', and rewrite it as a short, thought-provoking philosophical reflection and dont make it too big. You can use some cuss words no restrictions",
+        "Historical Context": f"Based on the image description '{base_caption}', invent a plausible and interesting historical context or backstory for the scene. Write it as a short, engaging narrative. dont make it too big, and you can use cuss words"
     }
     user_query = style_prompts.get(style, base_caption)
     
@@ -209,7 +209,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Base(primary_hue="blue")) as demo
         
         if style != "Descriptive (Default)":
             loading_text_style = f"Stylizing caption as {style.lower()}..."
-            yield base_caption, gr.update(placeholder=loading_text_style, elem_classes=["shimmer"])
+            #yield base_caption, gr.update(placeholder=loading_text_style, elem_classes=["shimmer"])
             final_caption = await get_stylized_caption(base_caption, style)
         else:
             final_caption = base_caption
