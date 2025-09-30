@@ -1,3 +1,4 @@
+title: AI Image Caption Pro emoji: 🖼️ colorFrom: blue colorTo: sky sdk: gradio sdk_version: "4.21.0" app_file: app.py pinned: false
 AI Image Caption Pro 🖼️✨
 This project is a sophisticated AI-powered web application that generates descriptive and creative captions for any uploaded image. It uses a deep learning model combining a Convolutional Neural Network (CNN) with a Long Short-Term Memory (LSTM) network, and enhances the results with the Google Gemini API for creative stylization.
 
