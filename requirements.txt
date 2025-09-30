@@ -1,6 +1,4 @@
-accelerate
-diffusers
-invisible_watermark
-torch
-transformers
-xformers
+tensorflow
+pillow
+matplotlib
+gradio
