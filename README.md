@@ -6,7 +6,7 @@
 
 At its core, the application uses a deep learning model combining a **ResNet50** Convolutional Neural Network (CNN) with a **Long Short-Term Memory (LSTM)** network to generate accurate, descriptive captions. For an extra layer of creativity, it integrates with the **Google Gemini API** to rewrite these captions in various artistic styles.
 
-![App Screenshot](https://www.canva.com/design/DAG0uVMmjrs/9obkmI3nDhuU_3Is6r1t0A/edit?utm_content=DAG0uVMmjrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![App Screenshot]([https://www.canva.com/design/DAG0uVMmjrs/9obkmI3nDhuU_3Is6r1t0A/edit?utm_content=DAG0uVMmjrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAG0uVMmjrs/f6zj_3I-n9Sb8jHJS3b2Qw/view?utm_content=DAG0uVMmjrs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8c577e3098))
 
 ##  Features
 
