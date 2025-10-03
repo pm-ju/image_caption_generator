@@ -6,7 +6,7 @@
 
 At its core, the application uses a deep learning model combining a **ResNet50** Convolutional Neural Network (CNN) with a **Long Short-Term Memory (LSTM)** network to generate accurate, descriptive captions. For an extra layer of creativity, it integrates with the **Google Gemini API** to rewrite these captions in various artistic styles.
 
-![App Screenshot](https://i.imgur.com/your-screenshot.png)
+![App Screenshot](https://www.canva.com/design/DAG0uVMmjrs/9obkmI3nDhuU_3Is6r1t0A/edit?utm_content=DAG0uVMmjrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ##  Features
 
@@ -133,7 +133,7 @@ Your application will restart and should now be live and fully functional for ev
 ##  Project Structure
 
 ```
-/
+
 ├── .gitattributes          # Configures Git LFS for large files
 ├── .gitignore              # Specifies files for Git to ignore
 ├── app.py                  # Main Gradio application script
