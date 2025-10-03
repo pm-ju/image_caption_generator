@@ -6,7 +6,7 @@
 
 At its core, the application uses a deep learning model combining a **ResNet50** Convolutional Neural Network (CNN) with a **Long Short-Term Memory (LSTM)** network to generate accurate, descriptive captions. For an extra layer of creativity, it integrates with the **Google Gemini API** to rewrite these captions in various artistic styles.
 
-![App Screenshot](Screenshot 2025-10-03 145840.png)
+![App Screenshot](https://github.com/pm-ju/image_caption_generator/blob/main/Screenshot%202025-10-03%20145840.png)
 
 ##  Features
 
