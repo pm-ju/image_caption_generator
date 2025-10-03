@@ -20,7 +20,7 @@ At its core, the application uses a deep learning model combining a **ResNet50**
 * **Interactive Web UI**: A sleek, modern, and user-friendly interface built with Gradio, featuring a responsive design and light/dark modes.
 * **Deployable**: Fully configured for easy and robust deployment on Hugging Face Spaces, with Git LFS for handling large model files.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 * **Backend**: Python
 * **Deep Learning**: TensorFlow / Keras
